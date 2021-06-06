@@ -11,3 +11,5 @@ gem 'coderay',
 gem 'rack-test', '0.7.0'
 gem 'sinatra',
 '2.0.0'
+gem 'sequel'
+gem 'sqlite3'
