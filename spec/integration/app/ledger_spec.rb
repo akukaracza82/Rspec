@@ -41,7 +41,7 @@ module ExpenseTracker
         expect(DB[:expenses].count).to eq(0)
       end
     end
-
+    
     describe '#expenses_on' do
       it 'returns all expenses for the provided date' do
         result_1 = ledger.record(expense.merge('date' => '2017-06-10'))
